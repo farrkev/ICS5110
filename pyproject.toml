@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ICS5110"
+version = "0.1.0"
+description = "Comparing 3 machine learning techniques for the modelling and prediction of data in a drug type dataset."
+authors = [
+    "Kevin Farrugia",
+    "Francesca Chircop",
+    "Matteo Giorgino"]
+readme = "README.md"
+repository = "https://github.com/farrkev/ICS5110"
+
+[tool.poetry.dependencies]
+python = "==3.11.0"
+pandas = "1.5.2"
+numpy = "1.23.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
